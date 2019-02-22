@@ -1,0 +1,26 @@
+body {
+   
+
+}
+
+
+.content {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+}
+
+ .card {
+     text-align:center;
+     padding:2rem;
+     background:#222;
+     color:#555;
+     margin:1rem;
+     transition: all .5s;
+ }
+ 
+ .card:hover {
+
+     box-shadow: 1.5rem 1.5rem 3rem #555;
+
+ }
